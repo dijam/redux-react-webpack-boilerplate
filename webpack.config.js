@@ -8,7 +8,8 @@ var devFlagPlugin = new webpack.DefinePlugin({
 module.exports = {
   devtool: 'eval',
   entry: [
-    'webpack-hot-middleware/client',
+    'webpack-dev-server/client?http://localhost:3013',
+    'webpack/hot/only-dev-server',
     './src/main'
   ],
   output: {
@@ -29,7 +30,12 @@ module.exports = {
         loaders: ['react-hot', 'babel'],
         include: path.join(__dirname, 'src')
       },
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') }
+      { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') },
+      {
+        test: /\.js$/,
+        loaders: ['react-hot', 'babel'],
+        include: path.join(__dirname, 'src')
+      }
     ]
   },
   resolve: {

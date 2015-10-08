@@ -8,6 +8,7 @@
     "clean": "rm -rf dist",
     "lint": "eslint src",
     "start": "npm run build && node server.js",
+    "start-dev": "npm run build && NODE_ENV=DEBUG node server.js",
     "dev-tools": "DEV_TOOLS=1 npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,6 +32,7 @@
     "redux-devtools": "^2.1.5",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.2.0",
+    "webpack-dev-server": "^1.12.0",
     "webpack-hot-middleware": "^2.4.1"
   },
   "engines": {
