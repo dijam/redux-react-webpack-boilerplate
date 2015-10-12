@@ -6,7 +6,12 @@ majid.sadeghi@gmail.com
 Installation
 -----------
     npm install
+    Run Server 
 
-Running
+Running Client
 -----------
     npm run-script start
+
+Running Client - Dev
+-----------
+    npm run-script start-dev

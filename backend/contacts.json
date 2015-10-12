@@ -1,0 +1,582 @@
+{
+    "acb9a1c1-d59e-4b66-b422-78cd8e43ec20": {
+        "first_name": "Kevin",
+        "last_name": "Davies",
+        "title": "Business Operations Manager",
+        "color": "385a86",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-08-03/8597590977_b95d3c183ae6224151d0_192.jpg",
+        "location": "America/New_York",
+        "team": "Business Operations",
+        "id": "acb9a1c1-d59e-4b66-b422-78cd8e43ec20"
+    },
+    "a1ac0767-2999-4dea-b9a7-fea1b71362d9": {
+        "first_name": "Jens",
+        "last_name": "Wirf",
+        "title": "",
+        "color": "4ec0d6",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-09-29/2727982212_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Data",
+        "id": "a1ac0767-2999-4dea-b9a7-fea1b71362d9"
+    },
+    "aca715a9-4f74-4fbb-aaf2-e0d5d8a379f3": {
+        "first_name": "Petter",
+        "last_name": "Nilsson",
+        "title": "Product Designer",
+        "color": "e0a729",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-07/2521732288_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Design",
+        "id": "aca715a9-4f74-4fbb-aaf2-e0d5d8a379f3"
+    },
+    "f08f4724-307c-4035-ae5d-20ff308f47ab": {
+        "first_name": "Ashley",
+        "last_name": "Stires",
+        "title": "Executive Assistant/Operations Manager (NY)",
+        "color": "e96699",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-04-13/4418416706_a76b39f7e8ff226f914e_192.jpg",
+        "location": "America/New_York",
+        "team": "Business Operations",
+        "id": "f08f4724-307c-4035-ae5d-20ff308f47ab"
+    },
+    "3411dd75-09c1-43cd-a0fa-47c2718544f1": {
+        "first_name": "Viktor",
+        "last_name": "Voronin",
+        "title": "Engineer",
+        "color": "a63024",
+        "image": "https://secure.gravatar.com/avatar/b91126e705ae96cf1722e82693e2587b.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0003.png",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "3411dd75-09c1-43cd-a0fa-47c2718544f1"
+    },
+    "4d3d777f-df09-491d-a3dc-f12e1d24e910": {
+        "first_name": "Camille",
+        "last_name": "Bossoutrot",
+        "title": "Android engineer",
+        "color": "385a86",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-26/2582949332_48.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "4d3d777f-df09-491d-a3dc-f12e1d24e910"
+    },
+    "efbe7498-295b-4325-850b-11a2f57f24da": {
+        "first_name": "Carl",
+        "last_name": "Waldekranz",
+        "title": "",
+        "color": "db3150",
+        "image": "https://secure.gravatar.com/avatar/297be32f804cf427effa934b32119f6b.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0015.png",
+        "location": "America/New_York",
+        "team": "Business Operations",
+        "id": "efbe7498-295b-4325-850b-11a2f57f24da"
+    },
+    "5f067ff0-7459-44c3-a9d3-be6e6e2cbc48": {
+        "first_name": "Tony",
+        "last_name": "Wallstr\u00f6m",
+        "title": "Product Designer",
+        "color": "8469bc",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-02-17/3744149957_ff810085df9284ec3266_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "5f067ff0-7459-44c3-a9d3-be6e6e2cbc48"
+    },
+    "a6f701fb-9ad4-4126-ad35-5c6263b254cd": {
+        "first_name": "Max",
+        "last_name": "Blum",
+        "title": "Growth Engineer!",
+        "color": "3c989f",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-04-07/4338439194_2659e54fec6f5daf410a_192.jpg",
+        "location": "America/New_York",
+        "team": "Tech",
+        "id": "a6f701fb-9ad4-4126-ad35-5c6263b254cd"
+    },
+    "138033d3-4305-4022-83ba-0bc2e7b53f8f": {
+        "first_name": "Alex",
+        "last_name": "Michael",
+        "title": "",
+        "color": "df3dc0",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-04-30/4681089914_f6b883c559cac8a4ad87_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "138033d3-4305-4022-83ba-0bc2e7b53f8f"
+    },
+    "72d0c2b5-3d81-44ab-a9e8-f3fc586f2e0d": {
+        "first_name": "Adam",
+        "last_name": "Renberg",
+        "title": "",
+        "color": "3c8c69",
+        "image": "https://secure.gravatar.com/avatar/ddb5c4b955ae7ad83805308f74dda26b.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F3654%2Fimg%2Favatars%2Fava_0002.png",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "72d0c2b5-3d81-44ab-a9e8-f3fc586f2e0d"
+    },
+    "e2c1d695-1ab5-422c-a786-77b2498b677b": {
+        "first_name": "Carl Johan",
+        "last_name": "Gustavsson",
+        "title": "",
+        "color": "7d414c",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-11-05/2941306988_4e03ebe842cf2d00e436_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "e2c1d695-1ab5-422c-a786-77b2498b677b"
+    },
+    "29dae8db-a107-4087-9c3e-df5d78dc338b": {
+        "first_name": "Katryna",
+        "last_name": "Jones",
+        "title": "Product Designer",
+        "color": "684b6c",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-19/2556466881_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Design",
+        "id": "29dae8db-a107-4087-9c3e-df5d78dc338b"
+    },
+    "adea65c3-fe19-4a41-a14b-557edb635208": {
+        "first_name": "P\u00e4rham",
+        "last_name": "Fazelzadeh",
+        "title": "Practicing developer",
+        "color": "d58247",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-27/2588072802_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Support",
+        "id": "adea65c3-fe19-4a41-a14b-557edb635208"
+    },
+    "7b7c829a-e9d1-4554-8438-9414a35c0e70": {
+        "first_name": "Marcus",
+        "last_name": "Tr\u00f6jbom",
+        "title": "Android",
+        "color": "dc7dbb",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-01-12/3387686985_e73e2b3ef23cda659d37_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "7b7c829a-e9d1-4554-8438-9414a35c0e70"
+    },
+    "0d0959d3-e057-4da1-8616-7d180c188814": {
+        "first_name": "Guilherme",
+        "last_name": "Rodrigues",
+        "title": "Globalization Engineer",
+        "color": "53b759",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-08-13/9060963300_43bda211d4103b3deb90_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "0d0959d3-e057-4da1-8616-7d180c188814"
+    },
+    "1c3999a0-b9b4-4abf-9507-5562c3472fbb": {
+        "first_name": "Jonas",
+        "last_name": "Axelsson",
+        "title": "",
+        "color": "235e5b",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-08-10/8886026227_a678baecd26c508c63bd_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Recruiting",
+        "id": "1c3999a0-b9b4-4abf-9507-5562c3472fbb"
+    },
+    "48d3d9a3-52b3-4147-b25d-9d90e8f889c0": {
+        "first_name": "Martin",
+        "last_name": "Melin",
+        "title": "Barista",
+        "color": "3c989f",
+        "image": "https://secure.gravatar.com/avatar/ed7637b2688cf6d29f8538480c7964b4.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F272a%2Fimg%2Favatars%2Fava_0026.png",
+        "location": "America/New_York",
+        "team": "Tech",
+        "id": "48d3d9a3-52b3-4147-b25d-9d90e8f889c0"
+    },
+    "724fd3f0-78f6-497a-bd61-91f7367cbc7c": {
+        "first_name": "Alexander",
+        "last_name": "Ryd\u00e9n",
+        "title": "",
+        "color": "db3150",
+        "image": "https://secure.gravatar.com/avatar/0800e18caef1a4da9070b3a50524ea68.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0023.png",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "724fd3f0-78f6-497a-bd61-91f7367cbc7c"
+    },
+    "b167ca58-51a9-4513-9cd4-70be31b218c6": {
+        "first_name": "Livia",
+        "last_name": "Moore",
+        "title": "",
+        "color": "5870dd",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-01-21/3468295258_a055fcad92923f1629fe_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Marketing",
+        "id": "b167ca58-51a9-4513-9cd4-70be31b218c6"
+    },
+    "b9636d7c-4861-42cd-8ac1-e3c2a9f397c1": {
+        "first_name": "Joakim",
+        "last_name": "Ekberg",
+        "title": "",
+        "color": "4bbe2e",
+        "image": "https://secure.gravatar.com/avatar/89feedef32c9abd2bb9895d4f936f6e8.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0012.png",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "b9636d7c-4861-42cd-8ac1-e3c2a9f397c1"
+    },
+    "490329cb-5a80-4f45-82de-a8184c5f7917": {
+        "first_name": "Vera",
+        "last_name": "Olsson",
+        "title": "i18n",
+        "color": "9f69e7",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-23/4143131909_e63bfd2e60982b660cf9_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "490329cb-5a80-4f45-82de-a8184c5f7917"
+    },
+    "4cd1bc60-a36e-477b-8476-449160630157": {
+        "first_name": "Laura",
+        "last_name": "Bornebusch",
+        "title": "I run the @sto office!",
+        "color": "df3dc0",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-05-04/4716630524_d02d8302676824cbce98_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Business Operations",
+        "id": "4cd1bc60-a36e-477b-8476-449160630157"
+    },
+    "8e99b828-84bb-4713-9d2d-0014489204ca": {
+        "first_name": "Siavash",
+        "last_name": "Ghorbani",
+        "title": "CTO",
+        "color": "99a949",
+        "image": "https://secure.gravatar.com/avatar/70c5d37405bdd68f5a72b685ed257402.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0004.png",
+        "location": "Europe/Stockholm",
+        "team": "Business Operations",
+        "id": "8e99b828-84bb-4713-9d2d-0014489204ca"
+    },
+    "ef587d73-f1db-45d6-975c-f1eabb920153": {
+        "first_name": "Anton",
+        "last_name": "Vlasenko",
+        "title": "",
+        "color": "684b6c",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-04-14/4453808617_546861e56988f28ad81e_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "ef587d73-f1db-45d6-975c-f1eabb920153"
+    },
+    "4f5b7037-f41f-4f3a-a2ec-0d7eadd12b0a": {
+        "first_name": "Katie",
+        "last_name": "Donley",
+        "title": "",
+        "color": "902d59",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-09/2781496385_192.jpg",
+        "location": "America/New_York",
+        "team": "Marketing",
+        "id": "4f5b7037-f41f-4f3a-a2ec-0d7eadd12b0a"
+    },
+    "e1cd5db6-38dd-407b-a914-7a978bab7b2a": {
+        "first_name": "Thordur",
+        "last_name": "Bjornsson",
+        "title": "mebbe this, mebbe that, mebbe infra?",
+        "color": "c386df",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-08-03/8566569155_9e8aa134be4f0dc4d9c6_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Infrastructure",
+        "id": "e1cd5db6-38dd-407b-a914-7a978bab7b2a"
+    },
+    "536cc2d3-a991-445c-a394-86f0a0f7e4df": {
+        "first_name": "Evy",
+        "last_name": "Lybeck",
+        "title": "Product Designer",
+        "color": "e23f99",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-09-29/2727990986_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Design",
+        "id": "536cc2d3-a991-445c-a394-86f0a0f7e4df"
+    },
+    "e808fc31-0e2a-49e4-983d-c327b165ac0f": {
+        "first_name": "Rachel",
+        "last_name": "Fletcher",
+        "title": "Community Manager",
+        "color": "8f4a2b",
+        "image": "https://secure.gravatar.com/avatar/a09f47ecde9538d83fa3f5b77fe877c0.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F3654%2Fimg%2Favatars%2Fava_0008.png",
+        "location": "America/New_York",
+        "team": "Marketing",
+        "id": "e808fc31-0e2a-49e4-983d-c327b165ac0f"
+    },
+    "5069f6d8-9769-4ebe-8559-0010c2e550b0": {
+        "first_name": "Ilya ",
+        "last_name": "Timofeyev ",
+        "title": "Community",
+        "color": "aba727",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-11-05/2944586643_dd456377216ecc3bddca_192.jpg",
+        "location": "America/New_York",
+        "team": "Marketing",
+        "id": "5069f6d8-9769-4ebe-8559-0010c2e550b0"
+    },
+    "c63728ee-973a-4793-947e-2c726e1027ee": {
+        "first_name": "Brandon",
+        "last_name": "Simins",
+        "title": "Head of Business Operations",
+        "color": "e475df",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-09-29/2727794355_72.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Operations",
+        "id": "c63728ee-973a-4793-947e-2c726e1027ee"
+    },
+    "51441fc6-c30f-4c7b-b208-adb79e89bf9f": {
+        "first_name": "Martin",
+        "last_name": "Hwasser",
+        "title": "Mobile Merchant Lead",
+        "color": "a63024",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-07-23/8089372597_ba3a52cab0007726edac_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "51441fc6-c30f-4c7b-b208-adb79e89bf9f"
+    },
+    "dd844b18-8130-4b51-b594-ad71d8d112b9": {
+        "first_name": "Wenonah ",
+        "last_name": "Echelard",
+        "title": "",
+        "color": "5a4592",
+        "image": "https://secure.gravatar.com/avatar/103d4b1c97fa94066994785834818f81.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F3654%2Fimg%2Favatars%2Fava_0010.png",
+        "location": "Europe/Stockholm",
+        "team": "Support",
+        "id": "dd844b18-8130-4b51-b594-ad71d8d112b9"
+    },
+    "d214a96a-7377-4389-98d3-580463a73c36": {
+        "first_name": "Anthony",
+        "last_name": "Rego",
+        "title": "Growth engineer",
+        "color": "9b3b45",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-05-20/4974211380_dc4e8089e11f0fb78f46_192.jpg",
+        "location": "America/New_York",
+        "team": "Tech",
+        "id": "d214a96a-7377-4389-98d3-580463a73c36"
+    },
+    "50af7e51-c8c1-4b92-949e-746bf46cc64e": {
+        "first_name": "Briana",
+        "last_name": "Feigon",
+        "title": "Global PR",
+        "color": "4cc091",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-05-11/4829977880_f3d3af22d9764e54d6d6_192.jpg",
+        "location": "America/New_York",
+        "team": "Marketing",
+        "id": "50af7e51-c8c1-4b92-949e-746bf46cc64e"
+    },
+    "7af87499-4a69-491d-824a-3e6472dd99f5": {
+        "first_name": "Anton",
+        "last_name": "Reimertz",
+        "title": "--rebase",
+        "color": "5b89d5",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-09-04/2620655029_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Design",
+        "id": "7af87499-4a69-491d-824a-3e6472dd99f5"
+    },
+    "760bda47-edc8-4d47-8cd7-0ac5cc1d3118": {
+        "first_name": "Alan",
+        "last_name": "Ghobadi",
+        "title": "baller",
+        "color": "2b6836",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-06/2516700125_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "760bda47-edc8-4d47-8cd7-0ac5cc1d3118"
+    },
+    "eda0259d-c8c2-4b14-aa2c-79b73fa7a33d": {
+        "first_name": "Jonas",
+        "last_name": "Oscarsson",
+        "title": "",
+        "color": "8d4b84",
+        "image": "https://secure.gravatar.com/avatar/2f72fd0c7209c45f3e26abb351ef735c.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F3654%2Fimg%2Favatars%2Fava_0000.png",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "eda0259d-c8c2-4b14-aa2c-79b73fa7a33d"
+    },
+    "a2e8cba6-c9f2-46a1-a983-d3d98c4707ba": {
+        "first_name": "Kaj",
+        "last_name": "Drobin",
+        "title": "CPO",
+        "color": "e7392d",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-10/6204282327_079b72fc6069e0637364_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Business Operations",
+        "id": "a2e8cba6-c9f2-46a1-a983-d3d98c4707ba"
+    },
+    "fe09f764-5254-429f-80dc-4adc7236aa8d": {
+        "first_name": "Carl",
+        "last_name": "Granstr\u00f6m",
+        "title": "Customer support",
+        "color": "2b6836",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-04-21/4533895950_7b77d5120d28c367b932_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Support",
+        "id": "fe09f764-5254-429f-80dc-4adc7236aa8d"
+    },
+    "4ec47e6e-b56d-46b5-96fb-6a98865cbe14": {
+        "first_name": "Ellie",
+        "last_name": "Fokas",
+        "title": "General Amiral",
+        "color": "235e5b",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-05-26/5054300570_af27d21d608185207d46_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Business Operations",
+        "id": "4ec47e6e-b56d-46b5-96fb-6a98865cbe14"
+    },
+    "571ca32e-c005-40ff-b419-d0e27955c720": {
+        "first_name": "Jessica",
+        "last_name": "Nylund",
+        "title": "",
+        "color": "99a949",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-05-18/4957333585_7e2479edb565d61da34b_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Support",
+        "id": "571ca32e-c005-40ff-b419-d0e27955c720"
+    },
+    "4f8fe463-8413-41ee-874d-64adb997ec26": {
+        "first_name": "Tyler",
+        "last_name": "Faux",
+        "title": "",
+        "color": "5a4592",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-19/2557754888_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "4f8fe463-8413-41ee-874d-64adb997ec26"
+    },
+    "ee02e6ff-0a74-47ff-bd8f-2649bd90d9e0": {
+        "first_name": "Erin",
+        "last_name": "Michet",
+        "title": "Growth team data!",
+        "color": "e0a729",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-05-05/4746205488_0822df3ac309bf5de0d8_192.jpg",
+        "location": "America/New_York",
+        "team": "Data",
+        "id": "ee02e6ff-0a74-47ff-bd8f-2649bd90d9e0"
+    },
+    "5f8c4dbe-76d2-4943-9015-6dcb94e7a2e7": {
+        "first_name": "Wilhelm",
+        "last_name": "Lundborg",
+        "title": "GM",
+        "color": "a72f79",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-02/5168446648_1c6d3a28c917fcaf0631_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Business Operations",
+        "id": "5f8c4dbe-76d2-4943-9015-6dcb94e7a2e7"
+    },
+    "6df002c9-2b6b-4b0f-82c7-9f963ebc2aad": {
+        "first_name": "Erik",
+        "last_name": "Eng",
+        "title": "Code",
+        "color": "e06b56",
+        "image": "https://secure.gravatar.com/avatar/147705ff02c5fbd90073a20608b8ca10.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0018.png",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "6df002c9-2b6b-4b0f-82c7-9f963ebc2aad"
+    },
+    "221e3516-6732-41d6-95fb-4718aa37aaae": {
+        "first_name": "Emelie",
+        "last_name": "Samuelsson",
+        "title": "",
+        "color": "ea2977",
+        "image": "https://secure.gravatar.com/avatar/8187feabb75c4b499c53b350e93644cb.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0003.png",
+        "location": "Europe/Stockholm",
+        "team": "Support",
+        "id": "221e3516-6732-41d6-95fb-4718aa37aaae"
+    },
+    "785ac8b2-77cf-4077-b26e-601e2ab9b489": {
+        "first_name": "Birk",
+        "last_name": "Nilson",
+        "title": "",
+        "color": "9b3b45",
+        "image": "https://secure.gravatar.com/avatar/bd9b4d7e429c08bc7d22aa2d100e7006.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0022.png",
+        "location": "Europe/Stockholm",
+        "team": "Business Operations",
+        "id": "785ac8b2-77cf-4077-b26e-601e2ab9b489"
+    },
+    "b38740c2-3cba-4f2e-bf70-bc00258b7520": {
+        "first_name": "Joel",
+        "last_name": "Besada",
+        "title": "",
+        "color": "674b1b",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-07/2520830913_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "b38740c2-3cba-4f2e-bf70-bc00258b7520"
+    },
+    "2f4285ad-dbb4-4e86-81ea-1a4d91f4950b": {
+        "first_name": "Adrien",
+        "last_name": "Delessert",
+        "title": "",
+        "color": "53b759",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-20/2563853279_192.jpg",
+        "location": "America/New_York",
+        "team": "Tech",
+        "id": "2f4285ad-dbb4-4e86-81ea-1a4d91f4950b"
+    },
+    "79b48e94-64bb-415d-9742-5b4ee9c8044e": {
+        "first_name": "Natalie",
+        "last_name": "Selin",
+        "title": "Look at numbers. Maybe do some stuff with them.",
+        "color": "dd8527",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-12-12/3205840919_4ad27496edb67228b787_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Data",
+        "id": "79b48e94-64bb-415d-9742-5b4ee9c8044e"
+    },
+    "33699ad1-0a2d-40c0-95b6-cfe7c68bb161": {
+        "first_name": "Jennie",
+        "last_name": "Wachtmeister",
+        "title": "",
+        "color": "9e3997",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-01-14/3413785303_3c69f67808b10945e70c_192.jpg",
+        "location": "America/New_York",
+        "team": "Marketing",
+        "id": "33699ad1-0a2d-40c0-95b6-cfe7c68bb161"
+    },
+    "a4294c65-4828-4c50-b1f5-ae11d15043a9": {
+        "first_name": "Erik",
+        "last_name": "Olsson",
+        "title": "Consumer",
+        "color": "bb86b7",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-08-20/2563252683_192.jpg",
+        "location": "Europe/Stockholm",
+        "team": "Tech",
+        "id": "a4294c65-4828-4c50-b1f5-ae11d15043a9"
+    },
+    "081d7845-a7de-43b8-a395-7264f4df6038": {
+        "first_name": "William",
+        "last_name": "Tis\u00e4ter",
+        "title": "Empowers development of faster and more reliable products",
+        "color": "e96699",
+        "image": "https://secure.gravatar.com/avatar/da1c8886fcaa112647ab46ec8b37450b.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0022.png",
+        "location": "Europe/Stockholm",
+        "team": "Infrastructure",
+        "id": "081d7845-a7de-43b8-a395-7264f4df6038"
+    },
+    "db1aa5f5-795c-42e4-976c-9345498bef7d": {
+        "first_name": "Dan ",
+        "last_name": "Blackman",
+        "title": "Head of Brand Design",
+        "color": "619a4f",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-11-24/3075015377_00896ab23c5baf9cdf9d_192.jpg",
+        "location": "America/New_York",
+        "team": "Design",
+        "id": "db1aa5f5-795c-42e4-976c-9345498bef7d"
+    },
+    "b5a773ea-0773-40f9-9ccc-d01dd13e1772": {
+        "first_name": "Jona",
+        "last_name": "Dahl",
+        "title": "",
+        "color": "50a0cf",
+        "image": "https://secure.gravatar.com/avatar/919375366c55e55b722afbb4b9886070.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F3654%2Fimg%2Favatars%2Fava_0008.png",
+        "location": "Europe/Stockholm",
+        "team": "Marketing",
+        "id": "b5a773ea-0773-40f9-9ccc-d01dd13e1772"
+    },
+    "c061794b-62e1-4246-95e6-a3c10ed8ff87": {
+        "first_name": "Anders",
+        "last_name": "Svensson",
+        "title": "",
+        "color": "5b89d5",
+        "image": "https://secure.gravatar.com/avatar/923c392a1ed03a8f3f36e5b705ac10a3.jpg?s=192&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F3654%2Fimg%2Favatars%2Fava_0008.png",
+        "location": "Europe/Stockholm",
+        "team": "Data",
+        "id": "c061794b-62e1-4246-95e6-a3c10ed8ff87"
+    },
+    "7b54b4c1-a2f7-4bbc-ad5f-e84d3a346b71": {
+        "first_name": "Justin",
+        "last_name": "Parker",
+        "title": "",
+        "color": "827327",
+        "image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-09-23/2702988494_192.jpg",
+        "location": "America/New_York",
+        "team": "Data",
+        "id": "7b54b4c1-a2f7-4bbc-ad5f-e84d3a346b71"
+    }
+}
