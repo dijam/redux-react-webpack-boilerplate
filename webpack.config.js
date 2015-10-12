@@ -23,6 +23,9 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     devFlagPlugin,
     new ExtractTextPlugin('app.css'),
+    new webpack.ProvidePlugin({
+      fetch: 'imports?this=>global!exports?global.fetch!whatwg-fetch',
+    }),
   ],
   module: {
     loaders: [

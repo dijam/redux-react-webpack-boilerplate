@@ -14,8 +14,6 @@ import { fetchContacts, toggleAddForm } from '../actions/index';
     didUpdated: state.selectedContact.didUpdated || false,
     dispatch: state.selectedContact.dispatch,
     addFormVisiblity: state.selectedContact.addFormVisiblity || false,
-
-    // updateContact: state.selectedContact.updateContact || {},
   };
 })
 export default class App extends Component {

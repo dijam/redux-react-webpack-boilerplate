@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { fetchContacts, deleteContact, saveNewContact, toggleAddForm } from '../actions/index';
+import { fetchContacts, deleteContact, saveNewContact, toggleAddForm, saveUpdatedContact } from '../actions/index';
 import { Modal, Button, Label } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
@@ -15,22 +15,26 @@ import { connect } from 'react-redux';
 class AddForm extends Component {
   constructor(props) {
     super(props);
+    this.updateMode = this.updateMode.bind(this);
   }
 
-  // componentDidMount() {
-  //   const { updateContact } = this.props;
-  //   console.log('updateContact', updateContact);
-  //   // dispatch(fetchContacts(this.props));
-  // }
+  updateMode() {
+    const { updateContact } = this.props;
+
+    if (updateContact && Object.keys(updateContact).length > 0) {
+      return true;
+    }
+
+    return false;
+  }
 
   shouldComponentUpdate() {
     return true;
   }
 
-  saveAddForm() {
-    const { dispatch } = this.props;
-
-    dispatch(saveNewContact({
+  saveForm() {
+    const { dispatch, updateContact } = this.props;
+    var data = {
       'first_name': this._firstName.value,
       'last_name': this._lastName.value,
       location: this._location.value,
@@ -38,7 +42,13 @@ class AddForm extends Component {
       team: this._team.value,
       title: this._title.value,
       image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDudXiRDntCUfJMNW51rEDPTc6NnNcT_qF1wppA_wFG-ABRFGfUg',
-    }));
+    };
+
+    if (this.updateMode()) {
+      dispatch(saveUpdatedContact(Object.assign({id: updateContact.id}, data)));
+    } else {
+      dispatch(saveNewContact(data));
+    }
   }
 
   close() {
@@ -50,7 +60,7 @@ class AddForm extends Component {
     const { updateContact } = this.props;
     var pageTitle = 'Add contact';
 
-    if (updateContact && Object.keys(updateContact).length > 0) {
+    if (this.updateMode()) {
       pageTitle = 'Edit contact';
       var firstName = updateContact.first_name;
       var lastName = updateContact.last_name;
@@ -95,7 +105,7 @@ class AddForm extends Component {
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={() => this.close()}>Close</Button>
-                <Button onClick={() => this.saveAddForm()}>Save</Button>
+                <Button onClick={() => this.saveForm()}>Save</Button>
             </Modal.Footer>
         </Modal>
     );
