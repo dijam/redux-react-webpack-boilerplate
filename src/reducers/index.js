@@ -1,3 +1,6 @@
+/*
+  Well the reducer of actions :)
+ */
 import fetch from 'isomorphic-fetch';
 
 import { combineReducers } from 'redux';
@@ -12,14 +15,6 @@ function selectedContact(state = {}, action) {
       didUpdated: false,
       lastUpdated: action.receivedAt,
     });
-
-    // return {
-    //   ...state,
-    //   contacts: action.data,
-    //   isFetching: false,
-    //   didUpdated: false,
-    //   lastUpdated: action.receivedAt,
-    // };
   case actions.REQUEST_CONTACTS:
     return Object.assign({}, state, {
       isFetching: true,

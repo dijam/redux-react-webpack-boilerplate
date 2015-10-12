@@ -6,7 +6,7 @@ majid.sadeghi@gmail.com
 Installation
 -----------
     npm install
-    Run Server 
+    Run Server  -> Check backend folder and its README
 
 Running Client
 -----------

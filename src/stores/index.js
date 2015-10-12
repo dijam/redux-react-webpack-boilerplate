@@ -4,8 +4,6 @@ import createLogger from 'redux-logger';
 import thunk from 'redux-thunk';
 import { devTools, persistState } from 'redux-devtools';
 
-// const __DEV__ = true;
-
 const logger = createLogger({
   predicate: (getState, action) => __DEV__,
   level: 'info',

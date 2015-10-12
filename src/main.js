@@ -14,7 +14,7 @@ const component = (
 );
 ReactDOM.render(component, dest);
 
-console.log('__DEV____DEV__', __DEV__);
+// If in dev mode, add DevTools to the dom obviously
 if (__DEV__) {
   const { DevTools, DebugPanel, LogMonitor } = require('redux-devtools/lib/react');
 

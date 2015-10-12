@@ -12,17 +12,23 @@ import { Button } from 'react-bootstrap';
     dispatch: state.selectedContact.dispatch,
   };
 })
-class Contacts extends Component {
+export default class Contacts extends Component {
   constructor(props) {
     super(props);
     this.deleteSelectedContact = this.deleteSelectedContact.bind(this);
   }
 
+  /*
+    Sends dispatch signal for deleteing the given contact id
+  */
   deleteSelectedContact(id) {
     const { dispatch } = this.props;
     dispatch(deleteContact(id, this.props));
   }
 
+  /*
+    Shows edit modal form
+  */
   showEditForm(contact) {
     const { dispatch } = this.props;
     dispatch(toggleAddForm(false, contact));
@@ -31,11 +37,11 @@ class Contacts extends Component {
   render() {
     const {contacts} = this.props;
     return (
-        <tbody>
+      <tbody>
         {this.props.contacts.map((contact, i) =>
           <tr key={i}>
             <td>
-                <img src={contact.image} alt={contact.first_name} className='img-circle' />
+              <img src={contact.image} alt={contact.first_name} className='img-circle' />
             </td>
             <td>{ contact.first_name }</td>
             <td>{ contact.last_name }</td>
@@ -44,8 +50,8 @@ class Contacts extends Component {
             <td>{ contact.title }</td>
             <td style={{backgroundColor: `#${contact.color}`}}> </td>
             <td>
-                <Button onClick={() => this.showEditForm(contact)}>Edit</Button>
-                <Button onClick={() => this.deleteSelectedContact(contact.id)}>Remove</Button>
+              <Button onClick={() => this.showEditForm(contact)}>Edit</Button>
+              <Button onClick={() => this.deleteSelectedContact(contact.id)}>Remove</Button>
             </td>
           </tr>
         )}
@@ -53,5 +59,3 @@ class Contacts extends Component {
     );
   }
 }
-
-export default Contacts;

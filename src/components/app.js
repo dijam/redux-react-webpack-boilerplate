@@ -17,18 +17,14 @@ import { fetchContacts, toggleAddForm } from '../actions/index';
   };
 })
 export default class App extends Component {
-  // constructor(props) {
-  //   super(props);
-  //
-  //   // this.handleChange = this.handleChange.bind(this);
-  //   // this.handleRefreshClick = this.handleRefreshClick.bind(this);
-  // }
-
   componentDidMount() {
     const { dispatch } = this.props;
     dispatch(fetchContacts(this.props));
   }
 
+  /*
+    Show contact modal form with sending dispatch signal
+  */
   showAddForm() {
     const { dispatch, addFormVisiblity } = this.props;
     dispatch(toggleAddForm(addFormVisiblity));
@@ -88,38 +84,3 @@ export default class App extends Component {
     );
   }
 }
-
-
-
-// App.propTypes = {
-//   contacts: PropTypes.array.isRequired,
-//   isFetching: PropTypes.bool.isRequired,
-//   lastUpdated: PropTypes.number,
-//   dispatch: PropTypes.func.isRequired,
-// };
-
-// function mapStateToProps(state) {
-//   const { selectedContact } = state;
-
-  // console.log(this);
-  // const {
-  //   contacts,
-  //   isFetching,
-  //   lastUpdated,
-  //   dispatch,
-  // } = { selectedContact };
-
-  // console.log('contents', state);
-
-  // console.log('statestate', state);
-//   // console.log(this);
-//   // debugger;
-//   return {
-//     contacts: state.selectedContact.contacts || [],
-//     isFetching: state.selectedContact.isFetching || false,
-//     lastUpdated: state.selectedContact.lastUpdated || 0,
-//     dispatch: state.selectedContact.dispatch,
-//   };
-// }
-
-// export default connect(mapStateToProps)(App);
